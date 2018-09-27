@@ -4,7 +4,7 @@ Created on March 21, 2018
 @author: Alejandro Molina
 '''
 import numpy as np
-from scipy.special import logsumexp
+from scipy.misc import logsumexp
 
 from spn.structure.Base import Product, Sum, Leaf, eval_spn_bottom_up, eval_spn_top_down
 
